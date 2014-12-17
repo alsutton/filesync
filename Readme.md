@@ -54,12 +54,10 @@ where;
 
 and source and destination take the following form;
 
-For a CloudFiles container: 
-```cloudfiles://[[username:apikey@]region]/bucket_name```
+For a CloudFiles container: cloudfiles://[[username:apikey@]region]/bucket_name
 (e.g. cloudfiles://me:myapikey@london/continaer)
 
-For a local directory:
-```path```
+For a local directory: path
 (e.g. /tmp)
 
 Output
